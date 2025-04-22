@@ -16,6 +16,8 @@ public class Principal {
         System.out.println("Ingresa tu numero de expediente: ");
         String expediente = myObj.nextLine();
 
+        myObj.close();
+
         Paciente paciente = new Paciente();
         paciente.nombre = nombre;
         paciente.edad = edad;
